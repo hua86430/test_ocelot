@@ -1,0 +1,6 @@
+@test_ocelot_HostAddress = http://localhost:5207
+
+GET {{test_ocelot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
